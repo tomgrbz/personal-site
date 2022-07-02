@@ -32,14 +32,14 @@
   text-decoration: none;
   width: 50px;
   height: 50px;
-  background-color: #bfe392;
+  background-color: #eaeaee;
   color: #fff;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   box-shadow:
-          5px 5px 10px #daef8d, -5px -5px 10px #cfea79;
+          0px 0px 20px #8dc6ef, -0px -0px 20px #de44d2;
 
 }
 
@@ -51,8 +51,8 @@
 @keyframes shadow {
   0% {
     box-shadow:
-  inset 5px 5px 10px #cfea79,
-  inset 5px -5px 10px #daef8d;
+            inset 5px 5px 10px #8dc6ef,
+            inset -5px -5px 10px #de44d2;
   }
   100% {
     box-shadow: none;
