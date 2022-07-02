@@ -1,0 +1,1 @@
+const bodypage = ( {message}: {message: string})=> <div><p>Hello</p></div>
