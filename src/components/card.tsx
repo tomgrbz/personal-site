@@ -12,7 +12,7 @@ interface ICardProps {
 export default class Card extends React.Component<ICardProps, any> {
     constructor(props: ICardProps) {
         super(props);
-        let v = '#d5f1f6'
+
     }
     render() {
         return (

@@ -43,8 +43,8 @@ export default class Layout extends React.Component<any, any> {
                                       img='1024px-Twilio-logo-red.svg' alt="twilio_logo"></Card>
                             </div>
                             <div className="px-16">
-                                <Card title="TreeDB Website" body="A Website that contains data on trees in the local Boston area."
-                                      img='treedb_site' alt="treedb_site"></Card>
+                                <Card title="AppleJacks" body="A discord bot that allows the user to play blackjack in discord through text commands"
+                                      img='discord_bot' alt="discord_bot_img"></Card>
                             </div>
                         </div>
 
