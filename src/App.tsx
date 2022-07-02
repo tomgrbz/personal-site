@@ -6,12 +6,12 @@ import { BrowserRouter, Route} from 'react-router-dom'
 
 function App() {
   return (
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+
         <Route  path='/'  element= {<Layout/>} />
 
 
 
-      </BrowserRouter>
+
   );
 }
 
