@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.96a6e8ad.css",
+    "main.js": "/static/js/main.b83081d3.js",
+    "static/js/787.a5fa54f9.chunk.js": "/static/js/787.a5fa54f9.chunk.js",
+    "static/media/treedb_site.png": "/static/media/treedb_site.e3dcc45f2c1563456ad2.png",
+    "static/media/1024px-Twilio-logo-red.svg.png": "/static/media/1024px-Twilio-logo-red.svg.5d607aee2c94a7404fae.png",
+    "index.html": "/index.html",
+    "main.96a6e8ad.css.map": "/static/css/main.96a6e8ad.css.map",
+    "main.b83081d3.js.map": "/static/js/main.b83081d3.js.map",
+    "787.a5fa54f9.chunk.js.map": "/static/js/787.a5fa54f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96a6e8ad.css",
+    "static/js/main.b83081d3.js"
+  ]
+}
