@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.96a6e8ad.css",
+    "main.js": "/react-gh-pages/static/js/main.2a24d75d.js",
+    "static/js/787.a5fa54f9.chunk.js": "/react-gh-pages/static/js/787.a5fa54f9.chunk.js",
+    "static/media/treedb_site.png": "/react-gh-pages/static/media/treedb_site.e3dcc45f2c1563456ad2.png",
+    "static/media/1024px-Twilio-logo-red.svg.png": "/react-gh-pages/static/media/1024px-Twilio-logo-red.svg.5d607aee2c94a7404fae.png",
+    "index.html": "/react-gh-pages/index.html",
+    "main.96a6e8ad.css.map": "/react-gh-pages/static/css/main.96a6e8ad.css.map",
+    "main.2a24d75d.js.map": "/react-gh-pages/static/js/main.2a24d75d.js.map",
+    "787.a5fa54f9.chunk.js.map": "/react-gh-pages/static/js/787.a5fa54f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96a6e8ad.css",
+    "static/js/main.2a24d75d.js"
+  ]
+}
