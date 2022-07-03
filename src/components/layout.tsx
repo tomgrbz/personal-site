@@ -44,7 +44,7 @@ export default class Layout extends React.Component<any, any> {
                             </div>
                             <div className="px-16">
                                 <Card title="AppleJacks" body="A discord bot that allows the user to play blackjack in discord through text commands"
-                                      img='discord_bot' alt="discord_bot_img"></Card>
+                                      img='treedb_site' alt="discord_bot_img"></Card>
                             </div>
                         </div>
 
