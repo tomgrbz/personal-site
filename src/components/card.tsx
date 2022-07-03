@@ -7,26 +7,28 @@ interface ICardProps {
     body: string,
     img: string,
     alt: string,
+    route: string,
 }
 
-export default class Card extends React.Component<ICardProps, any> {
-    constructor(props: ICardProps) {
-        super(props);
+const Card = (props:ICardProps) =>  {
+    const { title, body, img, alt, route } = props;
 
-    }
-    render() {
         return (
-            <div className="card card-compact w-96 h-96 bg-[#f6fad1] shadow-xl">
-                <figure><img src={require(`../images/${this.props.img}.png`)} alt={this.props.alt}/></figure>
+            <div className="card card-compact w-48 h-52 md:w-96 md:h-96 bg-[#f6fad1] shadow-xl">
+                <figure><img src={require(`../images/${img}.png`)} alt={alt}/></figure>
                 <div className="card-body">
-                    <h2 className="card-title">{this.props.title}</h2>
-                    <p>{this.props.body}</p>
+                    <h2 className="card-title">{title}</h2>
+                    <p>{body}</p>
                     <div className="card-actions justify-end">
-                        <button className="btn btn-accent">View on Github</button>
+                        <a href={`https://github.com/tomgrbz/${route}`}>
+                        <button className="btn btn-accent" >View on Github</button>
+                        </a>
                     </div>
                 </div>
             </div>
         )
-    }
+
 
 }
+
+export default Card

@@ -20,7 +20,7 @@ export default class Layout extends React.Component<any, any> {
                         speed={.5}
                         factor={.75}
                         style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-                        <Header> </Header>
+                        <Header/>
                     </ParallaxLayer>
 
                     <ParallaxLayer
@@ -33,18 +33,18 @@ export default class Layout extends React.Component<any, any> {
                             alignItems: 'center',
                             backgroundColor: '#a9d9e3',
                         }}>
-                        <div className="flex md:flex justify-between">
-                            <div className="px-16">
+                        <div className="flex flex-wrap md:flex justify-between">
+                            <div className="flex px-16">
                                 <Card title="TreeDB Website" body="A Website that contains data on trees in the local Boston area."
-                                    img='treedb_site' alt="treedb_site"></Card>
+                                    img='treedb_site' alt="treedb_site" route="treedb"></Card>
                             </div>
-                            <div className="px-16">
+                            <div className="flex px-16">
                                 <Card title="Twilio Location Messenger" body="An app in progress that allows you to message people in a 1 mile radius."
-                                      img='1024px-Twilio-logo-red.svg' alt="twilio_logo"></Card>
+                                      img='1024px-Twilio-logo-red.svg' alt="twilio_logo" route=""></Card>
                             </div>
-                            <div className="px-16">
+                            <div className="flex px-16">
                                 <Card title="AppleJacks" body="A discord bot that allows the user to play blackjack in discord through text commands"
-                                      img='discord_bot' alt="discord_bot_img"></Card>
+                                      img='discord_bot' alt="discord_bot_img" route="BlackJackBot"></Card>
                             </div>
                         </div>
 

@@ -2,27 +2,13 @@ import React from 'react';
 import Typer from './typer'
 
 
-interface IHeaderState {
-    nightMode: boolean
-}
-
-export default class Header extends React.Component<any, IHeaderState> {
-    constructor(props: any) {
-        super(props);
-
-        this.state = {
-            nightMode: false,
-        }
-    }
 
 
-    render() {
+const Header = () => {
+
         return (
             <div className="headerMain">
-
-                <div className="introContainer">
-                    <h1 className="introHeadLine">Hi, I'm Thomas Grbic</h1>
-                </div>
+                <h1 className="introHeadLine">Hi, I'm Thomas Grbic</h1>
                 <div className="typingLine">
                     <Typer content={"I am a CS student and"}></Typer>
                 </div>
@@ -30,5 +16,5 @@ export default class Header extends React.Component<any, IHeaderState> {
             </div>
         )
 
-    }
 }
+export default Header;
