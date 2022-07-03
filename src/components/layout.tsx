@@ -33,7 +33,7 @@ export default class Layout extends React.Component<any, any> {
                             alignItems: 'center',
                             backgroundColor: '#a9d9e3',
                         }}>
-                        <div className="flex justify-between">
+                        <div className="flex md:flex justify-between">
                             <div className="px-16">
                                 <Card title="TreeDB Website" body="A Website that contains data on trees in the local Boston area."
                                     img='treedb_site' alt="treedb_site"></Card>
@@ -44,7 +44,7 @@ export default class Layout extends React.Component<any, any> {
                             </div>
                             <div className="px-16">
                                 <Card title="AppleJacks" body="A discord bot that allows the user to play blackjack in discord through text commands"
-                                      img='treedb_site' alt="discord_bot_img"></Card>
+                                      img='discord_bot' alt="discord_bot_img"></Card>
                             </div>
                         </div>
 
