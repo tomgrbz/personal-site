@@ -14,14 +14,14 @@ const Card = (props:ICardProps) =>  {
     const { title, body, img, alt, route } = props;
 
         return (
-            <div className="card card-compact w-48 h-52 md:w-96 md:h-96 bg-[#f6fad1] shadow-xl">
-                <figure><img src={require(`../images/${img}.png`)} alt={alt}/></figure>
+            <div className="card card-compact w-44 h-96 sm:w-96 sm:h-[360px] bg-[#f6fad1] shadow-xl">
+                <figure><img className="object-scale-down w-32 h-32 sm:w-52" src={require(`../images/${img}.png`)} alt={alt}/></figure>
                 <div className="card-body">
                     <h2 className="card-title">{title}</h2>
-                    <p>{body}</p>
+                    <p className="text-sm">{body}</p>
                     <div className="card-actions justify-end">
                         <a href={`https://github.com/tomgrbz/${route}`}>
-                        <button className="btn btn-accent" >View on Github</button>
+                        <button className="btn btn-accent">View on Github</button>
                         </a>
                     </div>
                 </div>

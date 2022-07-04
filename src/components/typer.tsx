@@ -19,7 +19,7 @@ export default function Typer({ content }: {content:string}) {
     }, [])
 
     return (
-            <h1> {content}&nbsp;
+            <h1 className="typingLine"> {content + " "}
 
                 <span ref={el}></span>
             </h1>
