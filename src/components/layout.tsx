@@ -26,7 +26,7 @@ export default class Layout extends React.Component<any, any> {
                                     img='treedb_site' alt="treedb_site" route="treedb"></Card>
                             </div>
                             <div className="px-12">
-                                <Card title="Twilio Location Messenger" body="An app in progress that allows you to message people in a 1 mile radius."
+                                <Card title="Twilio Location Messenger" body="An app in progress that allows you to message people in a 1 mile radius. (note: no current repo for this project)"
                                       img='1024px-Twilio-logo-red.svg' alt="twilio_logo" route=""></Card>
                             </div>
                             <div className="px-12">
