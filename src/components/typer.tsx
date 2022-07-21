@@ -6,7 +6,7 @@ export default function Typer({ content }: {content:string}) {
 
     useEffect(() => {
         const typed = new Typed(el.current, {
-            strings: ['coffee enthusiast', 'aspiring frontend developer', 'automation tester', 'plant lover', 'cafe connoisseur'],
+            strings: ['coffee enthusiast', 'aspiring software engineer', 'automation tester', 'plant lover', 'cafe connoisseur'],
             typeSpeed: 40,
             backSpeed: 20,
             loop: true,
